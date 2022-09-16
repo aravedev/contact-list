@@ -1,0 +1,18 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.backgroundBlue {
+  color: rgb(24, 20, 20);
+  background-image: url("https://pixabay.com/get/g8d27d49f388be701a4989156a53d22f2d62d81ebd02f5294f149993196274a23da9fabbe1d908842bada8e807cefbe05_1280.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+}
+
+.rectangle {
+  width: 400px;
+  height: 300px;
+}
