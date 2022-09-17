@@ -1,8 +1,18 @@
 import React from "react";
+import { CreateEvent } from "../componets/Notes/components/CreateEvent";
+import { HomeNotes } from "../componets/Notes/Pages/HomeNotes";
 
 export const Test = () => {
   return (
-    <div className="border flex flex-col justify-start p-5 rounded-lg shadow-lg bg-white max-w-md rectangle">
+    <>
+      <HomeNotes />
+    </>
+  );
+};
+
+/*
+
+<div className="border flex flex-col justify-start p-5 rounded-lg shadow-lg bg-white max-w-md rectangle">
       <div className="h-1/4">Testing...</div>
       <div>
         <h2 className="mt-3 text-2xl px-4 py-1.5 font-mono ">
@@ -20,5 +30,5 @@ export const Test = () => {
         </div>
       </div>
     </div>
-  );
-};
+
+*/

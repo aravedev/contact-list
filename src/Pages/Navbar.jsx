@@ -15,7 +15,7 @@ export const Navbar = () => {
           <NavLink
             style={({ isActive }) => (isActive ? activeStyle : undefined)}
             className="mx-2 space-x-3"
-            to="/newContact"
+            to="/contact"
           >
             Contacts
           </NavLink>
